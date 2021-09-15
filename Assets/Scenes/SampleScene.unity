@@ -480,7 +480,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 6a44bfc4e7bbe7b42b10f4d88f66dff0, type: 2}
+    - {fileID: 11400000, guid: f3f6a16de238b6c4d8ab9c36a8a0a5a3, type: 2}
 --- !u!114 &615538581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,7 +816,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1037715999}
   - component: {fileID: 1037716001}
-  - component: {fileID: 1037716000}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -850,22 +849,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1037716000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037715998}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: af72d6e139df36640b4d7479b2919d61, type: 2}
 --- !u!114 &1037716001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,4 +1186,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 615538587, guid: ee34152e0f03f8c4c9ff8316c224201c, type: 3}
+    - {fileID: 3480491694896635888, guid: ee34152e0f03f8c4c9ff8316c224201c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ee34152e0f03f8c4c9ff8316c224201c, type: 3}
