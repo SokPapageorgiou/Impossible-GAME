@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
+
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerJump : MonoBehaviour
@@ -17,6 +17,11 @@ public class PlayerJump : MonoBehaviour
     }
 
     private void FixedUpdate()
+    {
+        Jump();
+    }
+
+    private void Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
         {
