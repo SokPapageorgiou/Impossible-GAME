@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2324654862511432189}
   - component: {fileID: 615538580}
   - component: {fileID: 182199071937238134}
-  - component: {fileID: 8751906203656100107}
   - component: {fileID: 615538581}
+  - component: {fileID: 1335633308}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -151,22 +151,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: f3f6a16de238b6c4d8ab9c36a8a0a5a3, type: 2}
---- !u!114 &8751906203656100107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732657801359749894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: a4fd2ed26884599498e725a10253f135, type: 2}
 --- !u!114 &615538581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,3 +166,16 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &1335633308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732657801359749894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f9c6c931c7ab049bca2abf9c2904a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: {x: 0, y: 8}

@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"AttemptCounter","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &615250242
 Transform:
@@ -307,18 +307,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1801650698, guid: 0111793f19b6c8d428f45439de79e110, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Attempts","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Stats","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801650698, guid: 0111793f19b6c8d428f45439de79e110, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1801650698, guid: 0111793f19b6c8d428f45439de79e110, type: 3}
-      propertyPath: _data._objectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 5e0e3433b4236a14a9cfd5d11cbf2243, type: 2}
     - target: {fileID: 1345291371453355740, guid: 0111793f19b6c8d428f45439de79e110, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -492,13 +480,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes
       objectReference: {fileID: 0}
-    - target: {fileID: 3628778442666933966, guid: a0defcb277e21ef45b195b1f30109426, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Result","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3628778442666933966, guid: a0defcb277e21ef45b195b1f30109426, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
+    - target: {fileID: 1167720442200321048, guid: a0defcb277e21ef45b195b1f30109426, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3628778442666933966, guid: a0defcb277e21ef45b195b1f30109426, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
