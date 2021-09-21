@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerReespanw
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[],"$version":"A"}}'
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Flow","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.Collider2D","key":"Collider","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"Respawn","summary":null,"pan":{"x":389.7342,"y":-43.70947},"zoom":0.55,"elements":[{"defaultValues":{},"position":{"x":-1212.0,"y":-294.0},"guid":"f538a933-9120-4f9b-8f2d-ecd5d22d1bda","$version":"A","$type":"Unity.VisualScripting.GraphInput"},{"defaultValues":{},"position":{"x":1133.0,"y":-62.0},"guid":"61038e98-3ad7-43ac-aff3-220ea3187db4","$version":"A","$type":"Unity.VisualScripting.GraphOutput"}],"$version":"A"}}'
     _objectReferences: []
